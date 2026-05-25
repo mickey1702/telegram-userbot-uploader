@@ -31,7 +31,7 @@ def download_video(url, key, name):
 
 
 async def main():
-    await client.start(PHONE)
+    await client.start(phone=PHONE)
 
     with open("videos.json", encoding="utf-8") as f:
         data = json.load(f)
