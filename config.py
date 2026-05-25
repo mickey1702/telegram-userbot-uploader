@@ -1,6 +1,4 @@
-import os
-
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-PHONE = os.getenv("PHONE")
-CHANNEL = int(os.getenv("CHANNEL"))
+API_ID = 30305197
+API_HASH = "76cbd2c9259f0368dc0ad2f9f9ee34f4"
+PHONE = "+919867001613"
+CHANNEL = -1003882473757
